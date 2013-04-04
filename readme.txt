@@ -81,9 +81,9 @@ Wähle das Projekt "WP Plugin: Scheduled Unsticky" und trag deinen Wunsch ein.
 
 
 == Screenshots ==
-1. Settings dialog (german)
+1. Settings dialog - german
 
-2. Settings dialog (english)
+2. Settings dialog - english
 
 
 == Changelog ==
