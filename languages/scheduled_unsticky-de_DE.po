@@ -1,300 +1,52 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: scheduled_unsticky\n"
+"Project-Id-Version: Scheduled Unsticky v0.2\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-02 14:32+0100\n"
-"PO-Revision-Date: 2013-04-02 14:39+0100\n"
+"PO-Revision-Date: 2013-04-17 12:18:39+0000\n"
 "Last-Translator: Frarnk Staude <frank@staude.net>\n"
 "Language-Team: frank@staude.net <frank@staude.net>\n"
-"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 1.5.4\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop;_n;_e;__\n"
-"X-Poedit-Basepath: /Users/staude/Projekte/Wordpress Plugins/wp-content/"
-"plugins/scheduled-unsticky\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: /Users/staude/Projekte/Wordpress Plugins/wp-content/plugins/scheduled-unsticky\n"
+"X-Poedit-Bookmarks: \n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
 
 #: class-scheduled-unsticky.php:43
+#@ scheduled_unsticky
 msgid "Scheduled unsticky settings"
 msgstr "Einstellungen zum Entfernen von \"Sticky\" Posts"
 
 #: class-scheduled-unsticky.php:44
+#@ scheduled_unsticky
 msgid "Days after publish"
 msgstr "Anzahl der Tage nach dem \"Beitrag oben halten\" entfernt wird."
 
 #: class-scheduled-unsticky.php:45
+#@ scheduled_unsticky
 msgid "Schedule interval"
 msgstr "Interval"
 
 #: class-scheduled-unsticky.php:51
+#@ scheduled_unsticky
 msgid "Infotext"
-msgstr ""
-"Entfernt den Eintrag \"Beitrag oben halten\" (Stickt) automatisch von "
-"Beiträgen nach n Tagen nach dem Veröffentlichsdatum des jeweiligen Beitrags."
+msgstr "Entfernt den Eintrag \"Beitrag oben halten\" (Stickt) automatisch von Beiträgen nach n Tagen nach dem Veröffentlichsdatum des jeweiligen Beitrags."
 
 #: class-scheduled-unsticky.php:55
+#@ scheduled_unsticky
 msgid "days"
 msgstr "Tage"
 
 #: class-scheduled-unsticky.php:62
+#@ scheduled_unsticky
 msgid "Never"
 msgstr "Nie"
 
-#~ msgid "Mime types"
-#~ msgstr "MIME Typen"
-
-#~ msgid "MIME Types settings"
-#~ msgstr "MIME Typen Einstellungen"
-
-#~ msgid "Activate mimetypes you want to use."
-#~ msgstr ""
-#~ "Aktivieren sie die MIME Typen, die zusätzlich beim Medienupload "
-#~ "unterstützt werden sollen."
-
-#~ msgid "enable .asd files"
-#~ msgstr ".asd Dateien erlauben (Astound-Dateien)"
-
-#~ msgid "enable .dwg files"
-#~ msgstr ".dwg Dateien erlauben (AutoCAD-Dateien)"
-
-#~ msgid "enable .asn files"
-#~ msgstr ".asn Dateien erlauben (Astound-Dateien)"
-
-#~ msgid "enable .tsp files"
-#~ msgstr ".tsp Dateien erlauben (TSP-Dateien)"
-
-#~ msgid "enable .dxf files"
-#~ msgstr ".dxf Dateien erlauben (AutoCAD-Dateien)"
-
-#~ msgid "enable .spl files"
-#~ msgstr ".spl Dateien erlauben (Flash Futuresplash-Dateien)"
-
-#~ msgid "enable .ptlk files"
-#~ msgstr ".ptlk Dateien erlauben (Listenup-Dateien)"
-
-#~ msgid "enable .hqx files"
-#~ msgstr ".hqx Dateien erlauben (Macintosh Binärdateien)"
-
-#~ msgid "enable .mbd files"
-#~ msgstr ".mbd Dateien erlauben (Mbedlet-Dateien)"
-
-#~ msgid "enable .mif files"
-#~ msgstr ".mif Dateien erlauben (FrameMaker Interchange Format Dateien)"
-
-#~ msgid "enable .hlp files"
-#~ msgstr ".hlp Dateien erlauben (Microsoft Windows Hilfe Dateien)"
-
-#~ msgid "enable .chm files"
-#~ msgstr ".chm Dateien erlauben (Microsoft Windows Hilfe Dateien)"
-
-#~ msgid "enable .bin files"
-#~ msgstr ".bin Dateien erlauben (Ausführbare Dateien)"
-
-#~ msgid "enable .dll files"
-#~ msgstr ".dll Dateien erlauben (Ausführbare Dateien)"
-
-#~ msgid "enable .oda files"
-#~ msgstr ".oda Dateien erlauben (Oda-Dateien)"
-
-#~ msgid "enable .ai files"
-#~ msgstr ".ai Dateien erlauben (Adobe PostScript-Dateien)"
-
-#~ msgid "enable .eps files"
-#~ msgstr ".eps Dateien erlauben (Adobe PostScript-Dateien)"
-
-#~ msgid "enable .ps files"
-#~ msgstr ".ps Dateien erlauben (Adobe PostScript-Dateien)"
-
-#~ msgid "enable .rtc files"
-#~ msgstr ".rtc Dateien erlauben (RTC-Dateien)"
-
-#~ msgid "enable .smp files"
-#~ msgstr ".smp Dateien erlauben (Studiom-Dateien)"
-
-#~ msgid "enable .tbk files"
-#~ msgstr ".tbk Dateien erlauben (Toolbook-Dateien)"
-
-#~ msgid "enable .vmd files"
-#~ msgstr ".vmd Dateien erlauben (Vocaltec Mediadesc-Dateien)"
-
-#~ msgid "enable .vmf files"
-#~ msgstr ".vmf Dateien erlauben (Vocaltec Media-Dateien)"
-
-#~ msgid "enable .shtml files"
-#~ msgstr ".shtml Dateien erlauben (XHTML-Dateien)"
-
-#~ msgid "enable .xhtml files"
-#~ msgstr ".xhtml Dateien erlauben (XHTML-Dateien)"
-
-#~ msgid "enable .xml files"
-#~ msgstr ".xml Dateien erlauben (XML-Dateien)"
-
-#~ msgid "enable .bcpio files"
-#~ msgstr ".bcpio Dateien erlauben (BCPIO-Dateien)"
-
-#~ msgid "enable .z files"
-#~ msgstr ".z Dateien erlauben (zlib-komprimierte Dateien)"
-
-#~ msgid "enable .cpio files"
-#~ msgstr ".cpio Dateien erlauben (CPIO-Dateien)"
-
-#~ msgid "enable .csh files"
-#~ msgstr ".csh Dateien erlauben (C-Shellscript-Dateien)"
-
-#~ msgid "enable .dcr files"
-#~ msgstr ".dcr Dateien erlauben (Macromedia Director-Dateien)"
-
-#~ msgid "enable .dir files"
-#~ msgstr ".dir Dateien erlauben (Macromedia Director-Dateien)"
-
-#~ msgid "enable .dxr files"
-#~ msgstr ".dxr Dateien erlauben (Macromedia Director-Dateien)"
-
-#~ msgid "enable .dvi files"
-#~ msgstr ".dvi Dateien erlauben (DVI-Dateien)"
-
-#~ msgid "enable .evy files"
-#~ msgstr ".evyDateien erlauben (Envoy-Dateien)"
-
-#~ msgid "enable .gtar files"
-#~ msgstr ".gtar Dateien erlauben (GNU tar-Archivdateien)"
-
-#~ msgid "enable .hdf files"
-#~ msgstr ".hdr Dateien erlauben (HDF-Dateien)"
-
-#~ msgid "enable .php files"
-#~ msgstr ".php Dateien erlauben (PHP-Dateien)"
-
-#~ msgid "enable .phtml files"
-#~ msgstr ".phtml Dateien erlauben (PHP-Dateien)"
-
-#~ msgid "enable .latex files"
-#~ msgstr ".latex Dateien erlauben (LaTeX-Quelldateien)"
-
-#~ msgid "enable .nc files"
-#~ msgstr ".nc Dateien erlauben (Unidata CDF-Dateien)"
-
-#~ msgid "enable .cdf files"
-#~ msgstr ".cdf Dateien erlauben (Unidata CDF-Dateien)"
-
-#~ msgid "enable .nsc files"
-#~ msgstr ".nsc Dateien erlauben (NS Chat-Dateien)"
-
-#~ msgid "enable .sh files"
-#~ msgstr ".sh Dateien erlauben (Bourne Shellscript-Dateien)"
-
-#~ msgid "enable .shar files"
-#~ msgstr ".shar Dateien erlauben (Shell-Archivdateien)"
-
-#~ msgid "enable .cab files"
-#~ msgstr ".cab Dateien erlauben (Flash Shockwave-Dateien)"
-
-#~ msgid "enable .spr files"
-#~ msgstr ".spr Dateien erlauben (Sprite-Dateien)"
-
-#~ msgid "enable .sprite files"
-#~ msgstr ".sprite Dateien erlauben (Sprite-Dateien)"
-
-#~ msgid "enable .sit files"
-#~ msgstr ".sit Dateien erlauben (Stuffit-Dateien)"
-
-#~ msgid "enable .sca files"
-#~ msgstr ".sca Dateien erlauben (Supercard-Dateien)"
-
-#~ msgid "enable .sv4cpio files"
-#~ msgstr ".sv4cpio Dateien erlauben (CPIO-Dateien)"
-
-#~ msgid "enable .sv4crc files"
-#~ msgstr ".sv4crc Dateien erlauben (CPIO-Dateien mit CRC)"
-
-#~ msgid "enable .tcl files"
-#~ msgstr ".tcl Dateien erlauben (TCL Scriptdateien)"
-
-#~ msgid "enable .tex files"
-#~ msgstr ".tex Dateien erlauben (TeX-Dateien)"
-
-#~ msgid "enable .texinfo files"
-#~ msgstr ".texinfo Dateien erlauben (Texinfo-Dateien)"
-
-#~ msgid "enable .texi files"
-#~ msgstr ".texi Dateien erlauben (Texinfo-Dateien)"
-
-#~ msgid "enable .t files"
-#~ msgstr ".t Dateien erlauben (TROFF-Dateien (Unix))"
-
-#~ msgid "enable .tr files"
-#~ msgstr ".tr Dateien erlauben (TROFF-Dateien (Unix))"
-
-#~ msgid "enable .roff files"
-#~ msgstr ".roff Dateien erlauben (TROFF-Dateien (Unix))"
-
-#~ msgid "enable .man files"
-#~ msgstr ".man Dateien erlauben (TROFF-Dateien mit MAN-Makros (Unix))"
-
-#~ msgid "enable .troff files"
-#~ msgstr ".troff Dateien erlauben (TROFF-Dateien mit MAN-Makros (Unix))"
-
-#~ msgid "enable .ustar files"
-#~ msgstr ".ustar Dateien erlauben (tar-Archivdateien (Posix))"
-
-#~ msgid "enable .au files"
-#~ msgstr ".au Dateien erlauben (Sound-Dateien)"
-
-#~ msgid "enable .snd files"
-#~ msgstr ".snd Dateien erlauben (Sound-Dateien)"
-
-#~ msgid "enable .es files"
-#~ msgstr ".es Dateien erlauben (Echospeed-Dateien)"
-
-#~ msgid "enable .tsi files"
-#~ msgstr ".tsi Dateien erlauben (TS Player-Dateien)"
-
-#~ msgid "enable .vox files"
-#~ msgstr ".vox Dateien erlauben (Vox Binärdateien)"
-
-#~ msgid "enable .aif files"
-#~ msgstr ".aif Dateien erlauben (AIFF-Sound-Dateien)"
-
-#~ msgid "enable .aiff files"
-#~ msgstr ".aiff Dateien erlauben (AIFF-Sound-Dateien)"
-
-#~ msgid "enable .aifc files"
-#~ msgstr ".aifc Dateien erlauben (AIFF-Sound-Dateien)"
-
-#~ msgid "enable .dus files"
-#~ msgstr ".dus Dateien erlauben (Sprach-Dateien)"
-
-#~ msgid "enable .cht files"
-#~ msgstr ".cht Dateien erlauben (Sprach-Dateien)"
-
-#~ msgid "enable .mid files"
-#~ msgstr ".mid Dateien erlauben (Midi-Dateien)"
-
-#~ msgid "enable .midi files"
-#~ msgstr ".midi Dateien erlauben (Midi-Dateien)"
-
-#~ msgid "Save Changes"
-#~ msgstr "Änderungen speichern"
-
-#~ msgid "Title settings"
-#~ msgstr "Titel ausblenden"
-
-#~ msgid "Disable title on homepage"
-#~ msgstr "Titel auf Startseite ausblenden"
-
-#~ msgid "Disable title on page/post"
-#~ msgstr "Titel auf Detailseite ausblenden"
-
-#~ msgid "Disable title on category page"
-#~ msgstr "Titel auf Kategorieseite ausblenden"
-
-#~ msgid "Disable title on archive page"
-#~ msgstr "Titel auf Archivseite ausblenden"
-
-#~ msgid "Startpage"
-#~ msgstr "Startseite"
-
-#~ msgid "Select your backend startpage."
-#~ msgstr "Wählen Sie die Startseite"

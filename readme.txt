@@ -4,7 +4,7 @@ Donate link: http://www.staude.net/donate
 Tags: scheduled, remove sticky, unsticky, posts
 Requires at least: 3.0
 Tested up to: 3.5.1
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -82,11 +82,14 @@ Wähle das Projekt "WP Plugin: Scheduled Unsticky" und trag deinen Wunsch ein.
 
 == Screenshots ==
 1. Settings dialog - german
-
-2. Settings dialog - english
+1. Settings dialog - english
 
 
 == Changelog ==
+
+= 0.2 =
+- fix readme, section screenshots
+- correct translations to edit it with codestyling-localization plugin
 
 = 0.1 =
 First version.
