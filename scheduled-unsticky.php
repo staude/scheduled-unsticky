@@ -4,7 +4,7 @@ Plugin Name: Scheduled Unsticky
 Plugin URI: http://www.staude.net/wordpress/plugins/ScheduledUnsticky
 Description: Removes sticky flag after a adjustable period from posts
 Author: Frank Staude
-Version: 0.2
+Version: 0.2.1
 Author URI: http://www.staude.net/
 Compatibility: WordPress 3.5.1
 */
