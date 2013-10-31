@@ -28,6 +28,10 @@ class scheduled_unsticky {
         add_action( 'admin_init',               array( 'scheduled_unsticky', 'settings_init' ) );
         add_action( 'plugins_loaded',           array( 'scheduled_unsticky', 'load_translations' ) );
         add_action( 'scheduled_unsticky_posts', array( 'scheduled_unsticky', 'unsticky_posts' ) );
+        
+        if ( defined ( 'WP_CLI' ) && WP_CLI ) {
+            require_once( __DIR__ . '/class-wp-cli-commands.php' );
+        }
     }
     
     /**

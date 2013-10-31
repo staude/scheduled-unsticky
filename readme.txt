@@ -3,8 +3,8 @@ Contributors:f.staude
 Donate link: http://www.staude.net/donate
 Tags: scheduled, remove sticky, unsticky, posts
 Requires at least: 3.0
-Tested up to: 3.5.1
-Stable tag: 0.2.2
+Tested up to: 3.7.1
+Stable tag: 0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,7 +33,7 @@ Einträge im changelog mit Zahlen verweisen auf die Ticket ID auf http://bugs.st
 
 1. Install the plugin from within the Dashboard or upload the directory `scheduled-unsticky` and all its contents to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Use the randomizer.
+3. Edit settings under options/reading.
 
 == Frequently Asked Questions ==
 
@@ -84,8 +84,13 @@ Wähle das Projekt "WP Plugin: Scheduled Unsticky" und trag deinen Wunsch ein.
 
 1. Settings dialog - english
 
+2. WP_CLI output from 'wp help scheduled-unsticky'
+
 
 == Changelog ==
+
+= 0.3 =
+- 0000047: Add WP_CLI support
 
 = 0.2.2 =
 - changes screenshots
