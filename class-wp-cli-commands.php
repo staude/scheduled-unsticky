@@ -37,7 +37,6 @@ class Scheduled_Unsticky_WP_CLI_Command extends WP_CLI_Command {
         $interval = $args[0];
         $schedules = wp_get_schedules();
         foreach ($schedules as $key => $value ) {
-            WP_CLI::line( "k: $key - i: $interval ");
             if ( $key == $interval ) {
                 update_option( 'scheduled_unsticky_cron', $interval );
                 WP_CLI::success('interval: '. $interval );
