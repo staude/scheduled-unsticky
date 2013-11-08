@@ -39,11 +39,11 @@ class scheduled_unsticky {
      * 
      * load the plugin textdomain with translations
      */
-    function load_translations() {
+    static public function load_translations() {
         load_plugin_textdomain( 'scheduled_unsticky', false, dirname( plugin_basename( __FILE__ )) . '/languages/'  ); 
     }
     
-    function settings_init() {
+    static public function settings_init() {
         add_settings_section('scheduled_unsticky_settings', __('Scheduled unsticky settings', 'scheduled_unsticky'), array( 'scheduled_unsticky', 'section_info' ), 'reading');
         add_settings_field('scheduled_unsticky_days', __('Days after publish', 'scheduled_unsticky'), array( 'scheduled_unsticky', 'field_days' ), 'reading', 'scheduled_unsticky_settings');
         add_settings_field('scheduled_unsticky_cron', __('Schedule interval','scheduled_unsticky'), array( 'scheduled_unsticky', 'field_cron' ), 'reading', 'scheduled_unsticky_settings');
@@ -51,15 +51,15 @@ class scheduled_unsticky {
         register_setting('reading', 'scheduled_unsticky_cron');
     }
     
-    function section_info() {
+    static public function section_info() {
         echo "<p>". __( 'Infotext', 'scheduled_unsticky' ) ."</p>";
     }
 
-    function field_days() {
+    static public function field_days() {
         echo '<input name="scheduled_unsticky_days" class="small-text" value="'. get_option('scheduled_unsticky_days') .'"> '.__('days','scheduled_unsticky');
     }
 
-    function field_cron() {
+    static public function field_cron() {
         $cron =  get_option('scheduled_unsticky_cron');
         ?>
         <select name="scheduled_unsticky_cron">
@@ -88,7 +88,7 @@ class scheduled_unsticky {
 
     }
 
-    function unsticky_posts() {
+    static public function unsticky_posts() {
         global $wpdb;
         $sticky = get_option( 'sticky_posts' );
         $days = get_option( 'scheduled_unsticky_days' );

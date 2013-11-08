@@ -8,7 +8,7 @@ class Scheduled_Unsticky_WP_CLI_Command extends WP_CLI_Command {
     /**
      * @subcommand info
      */    
-    function info( $args, $assoc_args ) {
+    static public function info( $args, $assoc_args ) {
         $cron =  get_option('scheduled_unsticky_cron');
         $days = get_option( 'scheduled_unsticky_days' );
         if ($cron != 0) {
@@ -23,7 +23,7 @@ class Scheduled_Unsticky_WP_CLI_Command extends WP_CLI_Command {
      * @subcommand days 
      * @synopsis <days>
      */
-    function days( $args ) {
+    static public function days( $args ) {
         $days = (int) $args[0];
         update_option( 'scheduled_unsticky_days', $days );
         WP_CLI::success('days: '. $days );
@@ -33,7 +33,7 @@ class Scheduled_Unsticky_WP_CLI_Command extends WP_CLI_Command {
      * @subcommand interval 
      * @synopsis <interval>
      */
-    function interval( $args ) {
+    static public function interval( $args ) {
         $interval = $args[0];
         $schedules = wp_get_schedules();
         foreach ($schedules as $key => $value ) {
